@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voter Portal</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4345cc2db8.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <div><img src="images/flag.jpg" alt=""></div>
+        <div>राष्ट्रीय मतदान सेवा &nbsp; <br> &nbsp;&nbsp;&nbsp;डेमो&nbsp;पोर्टल</div>
+        <div>NATIONAL VOTERS' SERVICES <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            DEMO PORTAL </div>
+        <div><img src="images/register.jpg" alt=""></div>
+    </nav>
+
+    <div class="editor">
+        <div class="font-edit">
+            <button id="button">A+</button>
+            <button id="button">A-</button>
+        </div>
+
+        <div class="lang-edit">
+            <div class="select-text">Select Language: </div>
+            <div class="select-cnt">
+                <select name="" id="">
+                    <option value="Hindi">Hindi</option>
+                    <option value="English">English</option>
+                </select>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="warning">
+        Note: Fields marked with asterisks ( * ) are mandatory
+    </div>
+
+    <div class="container">
+        <div class="notice">
+            Type 6 <br>
+            [See rule 13(1) and 26]
+        </div>
+        <div class="msg-warn">Application for inclusion of name in the electoral roll for the first time due to the
+            transfer of voter or any other constituency from any one constituency</div>
+
+        <!-- MAIN -->
+        <br>
+        <div class="start">In Service</div>
+        <div class="start">Electoral Registration Officer,</div>
+        <div class="room">State <span class="astr">*</span> <select name="" id="">
+                <option value="Select">Select</option>
+            </select> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; District <select
+                name="" id="">
+                <option value="Select">Select</option>
+            </select></div>
+        <div class="room">
+            Legislative Assembly / Parlimentary constituency <span class="astr">*</span> <select name="" id="">
+                <option value="Select">Select</option>
+            </select>
+        </div>
+        <div class="start">I request that my name be included in electoral rolls for all the aforesaid areas.</div>
+        <div class="room">
+            <input type="radio" name="radio-1"> First time voter <br>
+            <input type="radio" name="radio-1" id=""> Due to transfer from other meeting areas.
+        </div>
+        <br> <br>
+        <div class="start">Below are specifications in support of my claim to be included in the electoral rolls.</div>
+        <div class="msg-warn">Mandatory specifications</div>
+        <br>
+        <div class="room">(A) Name &nbsp; <span class="astr">*</span><input type="text" placeholder="(In English)">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="text" placeholder="(In Regional)">
+            <span><i class="fa-regular fa-keyboard"></i></span>
+        </div>
+
+        <div class="room">(B) Surname (if any) &nbsp; <span class="astr">*</span><input type="text"
+                placeholder="(In English)"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="text"
+                placeholder="(In Regional)">
+                <span><i class="fa-regular fa-keyboard"></i></span>
+            </div>
+
+        <div class="room">(C) Name of the applicant's relative &nbsp; <span class="astr">*</span><input type="text"
+                placeholder="(In English)"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="text"
+                placeholder="(In Regional)">
+                <span><i class="fa-regular fa-keyboard"></i></span>
+            </div>
+
+        <div class="room">Nickname of the applicant's relative &nbsp; <span class="astr">*</span><input type="text"
+                placeholder="(In English)"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="text"
+                placeholder="(In Regional)">
+                <span><i class="fa-regular fa-keyboard"></i></span>
+            </div>
+
+        <div class="room">(D) Type of the relationship <span class="astr">*</span>
+            <select name="" id="">
+                <option value="select">Select</option>
+            </select>
+        </div>
+
+        <div class="room"><input type="radio" name="radio-2" id="">(E) Age [on January 1 of the current calender] <span
+                class="astr">*</span><input type="text" value="2019">
+            <select name="" id="">
+                <option value="select">Year</option>
+            </select>
+            <select name="" id="">
+                <option value="select">Month</option>
+            </select>
+            <br>
+            <br>
+            <p>Or</p>
+            <br>
+            <br>
+
+            <input type="radio" name="radio-2" id="">(F) Date of birth (in the form of day/ month/ year) <input
+                type="date">
+        </div>
+
+        <br><br>
+        <div class="room">
+            (G) Applicant's gender <span class="astr">*</span><input type="text">
+        </div>
+
+        <br>
+        <div class="msg-warn">(H) Current address, whose applicant is nominally resident</div>
+        <br>
+        <br>
+
+        <div class="room"> House no. &nbsp; <span class="astr">*</span><input type="text" placeholder="(In English)">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="text" placeholder="(In Regional)">
+            <span><i class="fa-regular fa-keyboard"></i></span>
+        </div>
+
+        <div class="room">Street / area / location &nbsp; <span class="astr">*</span><input type="text"
+                placeholder="(In English)">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="text" placeholder="(In Regional)">
+            <span><i class="fa-regular fa-keyboard"></i></span>
+        </div>
+
+        <div class="room">City / Village: &nbsp; <span class="astr">*</span><input type="text"
+                placeholder="(In English)">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="text" placeholder="(In Regional)">
+            <span><i class="fa-regular fa-keyboard"></i></span>
+        </div>
+
+        <div class="room">Post Office: &nbsp; <span class="astr">*</span><input type="text" placeholder="(In English)">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="text" placeholder="(In Regional)">
+            <span><i class="fa-regular fa-keyboard"></i></span>
+        </div>
+
+        <div class="room">Pin Code <span class="astr">*</span> <input type="text"></div>
+        <div class="room">State / Union Territory <span class="astr">*</span>
+            <select name="" id="">
+                <option value="select">Select</option>
+
+            </select>
+        </div>
+
+        <div class="room">District <span class="astr">*</span>
+            <select name="" id="">
+                <option value="select">Select</option>
+
+            </select>
+        </div>
+        <div class="room">Family / Neighbour Epic No. <input type="text"></div>
+
+        <br>
+        <div class="msg-warn">Optional specialties</div>
+        <br>
+        <div class="room">(T) Disability (if any)</div>
+        <div class="room"><input type="checkbox">Visual impairment &nbsp; <input type="checkbox">Speech and hearing
+            impairment &nbsp; <input type="checkbox">Motion disabling &nbsp; <input type="checkbox">other &nbsp; <input
+                type="text"> </div>
+
+        <div class="room">(Th) Email ID (optional) <input type="text"></div>
+
+        <div class="room">(D) mobile number (optional) &nbsp; +91 <input type="text" name="" id=""></div>
+        <br>
+        <div class="msg-warn">Upload supporting documents (Supported formats .jpg, .png, .bmp, .jpeg) (max. 2MB) <span
+                class="list"><a href="#">List of supported documents </a></span></div>
+        <br><br>
+        <div class="room">Your photo <span class="astr">*</span>
+            <br>
+            <input type="file" name="" id="">
+        </div>
+
+        <div class="room">Age proof <span class="astr">*</span>
+            <br>
+            <input type="file" name="" id=""> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Document type <span class="astr">*</span> <select name="" id="">
+                <option value="">Select</option>
+            </select>
+        </div>
+
+        <div class="room">Address proof <span class="astr">*</span>
+            <br>
+            <input type="file" name="" id="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Document type <span class="astr">*</span> <select name="" id="">
+                <option value="">Select</option>
+            </select>
+
+            <br> <br>
+
+        </div>
+
+        <div class="msg-warn">Declaration</div>
+        <div class="start">I declare I declare that according to my best knowledge and belief</div>
+        <div class="start">I am a citizen of India and of my birth;</div>
+        <div class="room"> City / Village: <input type="text"></div>
+        <div class="room">Select state <span class="astr">*</span>
+            <select name="" id="">
+                <option value="">Select</option>
+            </select>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            District <span class="astr">*</span>
+            <select name="" id="">
+                <option value="">Select</option>
+            </select>
+        </div>
+
+        <div class="room">Date <input type="date" name="" id=""></div>
+
+        <div class="start">(ii) I am a nominally resident in the address given in the above (date, month, year) above;
+        </div>
+        <div class="start">I have not applied to include my name in the electoral roll for any other constituency;
+        </div>
+        <div class="room">
+            <input type="radio" name="sel" id="">
+            <label for="">(iv) My name has not been already included in the electoral roll for this or any other
+                assembly / parliamentary constituency</label>
+            <br>
+            Or
+            <br>
+            <input type="radio" name="sel" id="">
+            <label for="">My name would have been included in electoral rolls of the State's constituency, in which I
+                was already residing in the address mentioned below, and if so, then I request that it be removed from
+                that electoral roll. Go.</label>
+        </div>
+        <br>
+        <br>
+        <br>
+
+        <div class="room">
+            Location <input type="text"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Date <input type="date" name="" id="">
+        </div>
+
+        <div class="start">I am afraid that the statement or declaration, which is false, to whom I know it or believe
+            that it is false or I do not believe in being true, the People's Representation Act, 1950 (43 of 1950 ) Is
+            punishable under section 31</div>
+        <div class="room">Captcha <img class="cap" src="images/capcha.jpeg" alt="">
+            &nbsp;&nbsp;<i class="material-icons">refresh</i>&nbsp;&nbsp;&nbsp;
+            <input type="text">
+        </div>
+
+        <div class="btns">
+            <button class="btn">Reset</button>
+            <button class="btn">Submit</button>
+        </div>
+        <br>
+
+    </div>
+
+    <footer>
+        <div class="items">Copyright © 2019 Suven Consultants and Technology Pvt. Ltd.</div>
+    </footer>
+</body>
+
+</html>

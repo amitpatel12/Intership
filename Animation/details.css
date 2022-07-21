@@ -1,0 +1,149 @@
+.details{
+    width: 100%;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 49% 49%;
+}
+
+.grid{
+    height: 50vh;
+    border: 1px solid rgb(161, 161, 161);
+    cursor: pointer;
+    transition: all 150ms ease;
+}
+
+.grid-1{
+    background-color: rgb(4, 84, 4);
+    position: relative;
+}
+
+.grid-1 img{
+    height: 49vh;
+    padding: 15px 0 15px 15px;
+    width: 90%; 
+    display: block;
+}
+
+.overlap{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-start; */
+    
+    color: white;
+    left: 0;
+    bottom:0;
+    right: 0; 
+    /* text-align: center; */
+    overflow: hidden;
+    height: 80%;
+    margin: 0 0 40px 40px;
+    width: 0%;
+    transition: all 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    z-index: 1;
+}
+
+.overlap-text{
+    margin:5px 10px;
+    font: 14px;
+    font-weight: 300;
+    width: 80%;
+    /* opacity: .9; */
+}
+
+.overlap h1{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.grid-1:hover .overlap{
+    left: 0;
+    width: 80%;
+    border-left: 5px solid white;
+    border-radius: 3px;
+}
+
+.overlap .text{
+    color: white;
+}
+
+
+/* ====================================== */
+
+.grid-post{
+    color: white;
+    padding: 10px;
+    
+}
+
+.grid-post > h2{
+    margin-bottom: 8px;
+}
+
+.grid-post > div {
+    font-size: 13px;
+}
+
+.grid-2, .grid-5{
+    background-color: rgba(154, 67, 129, 0.839);
+}
+
+.grid-2:hover, .grid-5:hover{
+    background-color: rgb(154, 67, 129);
+}
+
+.grid-3{
+    background-color: rgb(131, 114, 131);
+}
+
+.grid-3:hover{
+    background-color: rgb(93, 78, 93);
+}
+
+.grid-7{
+    background-color: rgb(131, 114, 131);
+}
+
+.grid-7:hover{
+    background-color: rgb(93, 78, 93);
+}
+
+.grid-6{
+    background-color: rgb(20, 94, 46);
+}
+
+.grid-6:hover{
+    background-color: rgb(14, 74, 35);
+}
+
+.second-type-grid{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.grid-4, .grid-8{
+    background-color: rgb(161, 121, 2);
+}
+
+.grid-4:hover, .grid-8:hover{
+    background-color: rgb(136, 102, 0);
+}
+
+.small-detail{
+    padding: 10px 20px;
+}
+
+.small-detail > div{
+    padding-bottom: 10px;
+}
+
+.small-detail1, .small-detail3{
+    border-left: 5px solid black;
+}
+
+.small-detail2{
+    border-right: 5px solid black;
+    text-align: right;
+}
